@@ -1,10 +1,6 @@
 package com.example.zodiacapp
 
-import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 val zodiacList: List<Zodiac> = listOf(
@@ -30,8 +26,5 @@ zodiacRecyclerView.addItemDecoration(DividerItemDecoration(this,DividerItemDecor
 
 zodiacRecyclerView.adapter = ZodiacAdapter(zodiacList)
 
-class ZodiacFragment : Fragment() {
-
-
-}
+class ZodiacFragment : Fragment()
 
