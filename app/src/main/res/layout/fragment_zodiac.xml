@@ -8,26 +8,5 @@
         android:id="@+id/zodiac_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <TextView
-
-        android:id="@+id/title_text_view"
-        android:layout_margin="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-
-        android:id="@+id/dates_text_view"
-        android:layout_margin="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-
-        android:id="@+id/element_text_view"
-        android:layout_margin="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
 
 </LinearLayout>

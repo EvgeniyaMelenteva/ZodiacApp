@@ -3,12 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".InfoFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Итоговый проект после прохождения курса Разработчик мобильных приложений"
-        android:textSize="30dp" />
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingMultiplier="0.9"
+        android:shadowColor="@color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="@string/info"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="267dp" />
 
 </FrameLayout>
